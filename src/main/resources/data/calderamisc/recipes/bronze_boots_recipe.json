@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "item": "calderamisc:bronze_ingot"
+    }
+  },
+  "result": {
+    "item": "calderamisc:bronzearmor_boots",
+    "count": 1
+  }
+}

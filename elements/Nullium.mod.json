@@ -1,0 +1,57 @@
+{
+  "_fv": 69,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "nullium",
+    "customModelName": "Ranged item",
+    "customProperties": {},
+    "states": [],
+    "name": "Nullium",
+    "rarity": "EPIC",
+    "creativeTabs": [
+      {
+        "value": "MATERIALS"
+      }
+    ],
+    "stackSize": 1,
+    "enchantability": 0,
+    "useDuration": 2,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": "Blocks.REEDS"
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": true,
+    "damageVsEntity": 1780.0,
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "glowCondition": {
+      "fixedValue": true
+    },
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "enableRanged": true,
+    "shootConstantly": true,
+    "rangedItemChargesPower": false,
+    "projectile": {
+      "value": "SpectralArrow"
+    },
+    "projectileDisableAmmoCheck": true,
+    "isFood": true,
+    "nutritionalValue": 24,
+    "saturation": 0.3,
+    "eatResultItem": {
+      "value": "Blocks.SMOOTH_STONE"
+    },
+    "isMeat": true,
+    "isAlwaysEdible": true,
+    "animation": "eat"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "_fv": 69,
+  "_type": "fluid",
+  "definition": {
+    "name": "§kUNKNOWN",
+    "bucketName": "§kUnknown§n Bucket",
+    "textureStill": "universe",
+    "textureFlowing": "universe",
+    "tintType": "No tint",
+    "canMultiply": true,
+    "flowRate": 1,
+    "levelDecrease": 1,
+    "slopeFindDistance": 1,
+    "spawnParticles": true,
+    "dripParticle": {
+      "value": "CRIT"
+    },
+    "flowStrength": -21.3,
+    "luminosity": 0,
+    "density": 1000,
+    "viscosity": 1000,
+    "temperature": 300,
+    "type": "WATER",
+    "generateBucket": true,
+    "textureBucket": "",
+    "creativeTabs": [
+      {
+        "value": "DECORATIONS"
+      }
+    ],
+    "emptySound": {
+      "value": ""
+    },
+    "rarity": "EPIC",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "resistance": 100.0,
+    "luminance": 0,
+    "lightOpacity": 1,
+    "emissiveRendering": false,
+    "tickRate": 0,
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "colorOnMap": "DEFAULT"
+  }
+}

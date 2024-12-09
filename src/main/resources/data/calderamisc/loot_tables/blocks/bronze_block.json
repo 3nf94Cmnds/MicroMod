@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "calderamisc:blocks/bronze_block",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "calderamisc:bronze_block"
+        }
+      ]
+    }
+  ]
+}

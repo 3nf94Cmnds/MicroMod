@@ -1,0 +1,282 @@
+{
+  "mod_elements": [
+    {
+      "name": "Nullium",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nullium",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/calderamisc/models/item/nullium.json",
+          "src/main/java/net/fsuardi/caldera/misc/item/NulliumItem.java"
+        ]
+      }
+    },
+    {
+      "name": "NulliumArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nullium_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/calderamisc/models/item/nullium_armor_boots.json",
+          "src/main/resources/assets/calderamisc/models/item/nullium_armor_chestplate.json",
+          "src/main/resources/assets/calderamisc/models/item/nullium_armor_helmet.json",
+          "src/main/java/net/fsuardi/caldera/misc/item/NulliumArmorItem.java",
+          "src/main/resources/assets/calderamisc/models/item/nullium_armor_leggings.json"
+        ]
+      }
+    },
+    {
+      "name": "Fanter",
+      "type": "fluid",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fanter",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/calderamisc/blockstates/fanter.json",
+          "src/main/resources/assets/calderamisc/models/item/fanter_bucket.json",
+          "src/main/java/net/fsuardi/caldera/misc/fluid/FanterFluid.java",
+          "src/main/java/net/fsuardi/caldera/misc/fluid/types/FanterFluidType.java",
+          "src/main/java/net/fsuardi/caldera/misc/item/FanterItem.java",
+          "src/main/java/net/fsuardi/caldera/misc/block/FanterBlock.java",
+          "src/main/resources/assets/calderamisc/models/block/fanter.json"
+        ]
+      }
+    },
+    {
+      "name": "NulliumBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nullium_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/calderamisc/worldgen/configured_feature/nullium_block.json",
+          "src/main/resources/data/calderamisc/loot_tables/blocks/nullium_block.json",
+          "src/main/resources/assets/calderamisc/models/block/nullium_block.json",
+          "src/main/java/net/fsuardi/caldera/misc/block/NulliumBlockBlock.java",
+          "src/main/resources/data/calderamisc/worldgen/placed_feature/nullium_block.json",
+          "src/main/resources/assets/calderamisc/models/item/nullium_block.json",
+          "src/main/resources/assets/calderamisc/blockstates/nullium_block.json",
+          "src/main/resources/data/calderamisc/forge/biome_modifier/nullium_block_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "Nullblock",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nullblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/calderamisc/recipes/nullblock.json"
+        ]
+      }
+    },
+    {
+      "name": "Nullhelmet",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nullhelmet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/calderamisc/recipes/nullhelmet.json"
+        ]
+      }
+    },
+    {
+      "name": "Nullpants",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nullpants",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/calderamisc/recipes/nullpants.json"
+        ]
+      }
+    },
+    {
+      "name": "Nullshirt",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nullshirt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/calderamisc/recipes/nullshirt.json"
+        ]
+      }
+    },
+    {
+      "name": "Nullboots",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nullboots",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/calderamisc/recipes/nullboots.json"
+        ]
+      }
+    },
+    {
+      "name": "BronzeIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/fsuardi/caldera/misc/item/BronzeIngotItem.java",
+          "src/main/resources/assets/calderamisc/models/item/bronze_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "Bronzearmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronzearmor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/calderamisc/models/item/bronzearmor_helmet.json",
+          "src/main/resources/assets/calderamisc/models/item/bronzearmor_chestplate.json",
+          "src/main/resources/assets/calderamisc/models/item/bronzearmor_leggings.json",
+          "src/main/resources/assets/calderamisc/models/item/bronzearmor_boots.json",
+          "src/main/java/net/fsuardi/caldera/misc/item/BronzearmorItem.java"
+        ]
+      }
+    },
+    {
+      "name": "BronzeBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/fsuardi/caldera/misc/block/BronzeBlockBlock.java",
+          "src/main/resources/assets/calderamisc/models/item/bronze_block.json",
+          "src/main/resources/assets/calderamisc/models/block/bronze_block.json",
+          "src/main/resources/assets/calderamisc/blockstates/bronze_block.json",
+          "src/main/resources/data/calderamisc/loot_tables/blocks/bronze_block.json"
+        ]
+      }
+    },
+    {
+      "name": "BronzeBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/calderamisc/recipes/bronze_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BronzeChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/calderamisc/recipes/bronze_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BronzeBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/calderamisc/recipes/bronze_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BronzeLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/calderamisc/recipes/bronze_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BronzeHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/calderamisc/recipes/bronze_helmet_recipe.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:replaceable": [
+      "~CUSTOM:Fanter"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "fluid.calderamisc.fanter": "§kUNKNOWN",
+      "item.calderamisc.fanter_bucket": "§kUnknown§n Bucket",
+      "item.calderamisc.nullium": "Nullium",
+      "item.calderamisc.nullium_armor_helmet": "Nullium Armor Helmet",
+      "item.calderamisc.nullium_armor_leggings": "Nullium Armor Leggings",
+      "block.calderamisc.fanter": "§kUNKNOWN",
+      "item.calderamisc.bronzearmor_helmet": "Bronze Helmet",
+      "item.calderamisc.bronzearmor_leggings": "Bronze Leggings",
+      "item.calderamisc.bronzearmor_boots": "Bronze Boots",
+      "block.calderamisc.nullium_block": "§kessence of the universe",
+      "item.calderamisc.bronze_ingot": "Bronze Ingot",
+      "block.calderamisc.bronze_block": "Bronze Block",
+      "item.calderamisc.nullium_armor_boots": "Nullium Armor Boots",
+      "item.calderamisc.nullium_armor_chestplate": "Nullium Armor Chestplate",
+      "item.calderamisc.bronzearmor_chestplate": "Bronze Chestplate"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "calderamisc",
+    "modName": "Caldera Bits N\u0027 Pieces",
+    "version": "1.0.0",
+    "author": "fsuardi, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.fsuardi.caldera.misc"
+  },
+  "mcreatorVersion": 202400342716
+}
